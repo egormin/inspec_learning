@@ -16,5 +16,14 @@ InSpec is a free and open-source framework for testing and auditing your applica
 - Similar to Rspec, Serverspec 
 - Extendable with custom Resources
 
+### Documentation:
+- https://www.inspec.io
+- https://github.com/inspec/inspec
+
+### Examples:
+- https://dev-sec.io/
+- https://supermarket.chef.io/
+
+
 
 
