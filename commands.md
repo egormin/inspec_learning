@@ -4,6 +4,10 @@
 ```
 inspec help
 ```
+***Get version:***
+```
+inspec version
+```
 ***Get system details:***
 ```
 inspec detect
@@ -56,4 +60,8 @@ inspec supermarket info dev-sec/linux-baseline
 ***Run certain tests:***
 ```
 inspec exec auditd -t ssh://root:password@target --controls package-08
+```
+***Create profile:***
+```
+inspec init profile my_nginx
 ```
