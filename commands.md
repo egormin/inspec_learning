@@ -43,6 +43,7 @@ inspec exec auditd-0.1.0.tar.gz -t ssh://root:password@target
 ***Run tests from git:***
 ```
 inspec exec https://github.com/learn-chef/auditd/releases/download/v0.1.0/auditd-0.1.0.tar.gz -t ssh://root:password@target
+inspec exec https://github.com/egormin/inspec_learning -t ssh://root:password@target
 ```
 ***Get community profiles list:***
 ```
@@ -52,4 +53,7 @@ inspec supermarket profiles
 ```
 inspec supermarket info dev-sec/linux-baseline
 ```
-
+***Run certain tests:***
+```
+inspec exec auditd -t ssh://root:password@target --controls package-08
+```
