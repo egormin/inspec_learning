@@ -43,10 +43,15 @@ inspec exec test.rb -t azure://subscription_id
 ```
 inspec exec auditd-0.1.0.tar.gz -t ssh://root:password@target
 ```
-***Run tests from git:***
+***Run tests from git (archived):***
 ```
 inspec exec https://github.com/learn-chef/auditd/releases/download/v0.1.0/auditd-0.1.0.tar.gz -t ssh://root:password@target
 ```
+***Run tests from git (unarchived):***
+```
+inspec exec https://github.com/egormin/inspec_learning -t ssh://root:password@target
+```
+in this case profile should be in the root of repo.
 ***Run tests from community profile:***
 ```
 inspec supermarket exec dev-sec/linux-baseline -t ssh://root:password@target
