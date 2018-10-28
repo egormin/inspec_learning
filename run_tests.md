@@ -39,4 +39,11 @@ inspec exec test.rb -t azure://
 ```
 inspec exec test.rb -t azure://subscription_id
 ```
-
+***Run tests from archive:***
+```
+inspec exec auditd-0.1.0.tar.gz -t ssh://root:password@target
+```
+***Run tests from git:***
+```
+inspec exec https://github.com/learn-chef/auditd/releases/download/v0.1.0/auditd-0.1.0.tar.gz -t ssh://root:password@target
+```
