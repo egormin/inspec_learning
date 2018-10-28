@@ -44,3 +44,12 @@ inspec exec auditd-0.1.0.tar.gz -t ssh://root:password@target
 ```
 inspec exec https://github.com/learn-chef/auditd/releases/download/v0.1.0/auditd-0.1.0.tar.gz -t ssh://root:password@target
 ```
+***Get community profiles list:***
+```
+inspec supermarket profiles
+```
+***Get info about community profile:***
+```
+inspec supermarket info dev-sec/linux-baseline
+```
+
