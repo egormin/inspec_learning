@@ -56,3 +56,7 @@ in this case profile should be in the root of repo.
 ```
 inspec supermarket exec dev-sec/linux-baseline -t ssh://root:password@target
 ```
+***Run certain tests:***
+```
+inspec exec auditd -t ssh://root:password@target --controls package-08
+```
