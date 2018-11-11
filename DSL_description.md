@@ -104,6 +104,6 @@ end
 
 `be >=` is an operator matcher. It allows you to perform numeric comparisons. All plural resources have a count property
 
-***resource-specific matchers***, which operate directly on the resource (Singular Resource), are used with it
+***resource-specific matchers*** operate directly on the resource (Singular Resource), are used with it
 
-***universal matchers***, which operate on the properties of the resource (Plural Resources), are used with its, and tend to be very generic, operating on text, numbers, and lists.Plural resources support filter statements
+***universal matchers*** operate on the properties of the resource (Plural Resources), are used with its, and tend to be very generic, operating on text, numbers, and lists.Plural resources support filter statements
