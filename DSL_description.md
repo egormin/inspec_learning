@@ -84,7 +84,10 @@ end
 
 `target` is the OS or API on which InSpec is performing audits
 
-`test` is an individual assertion about the state of the resource or one of its properties.
+`test` is an individual assertion about the state of the resource or one of its properties
+
+`profile attributes` are another way to load data into your control when it runs. Attributes enable you to override default values or define secrets such as usernames and passwords. Attribute files that contain sensitive data are typically not stored in revision control systems such as Git
+
 
 #### Plural Resource Example
 ```
